@@ -11,3 +11,18 @@ input,textarea,button{padding:10px}
 footer{text-align:center;background:#222;color:#fff;padding:20px;margin-top:30px}
 .dark{background:#121212;color:#eee}
 .dark .card{background:#1f1f1f}
+.btn-acao {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-acao:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
